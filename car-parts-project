@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Автомобилни части – Университетски проект</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f4f4f4; color:#333; }
+    header { background:#1f2937; color:white; padding:20px; }
+    header h1 { margin:0; }
+    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
+    section { padding:40px; background:white; margin:20px; border-radius:8px; }
+    h2 { color:#1f2937; }
+    footer { background:#111827; color:white; text-align:center; padding:15px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
+    .card { background:#e5e7eb; padding:20px; border-radius:8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Автомобилни части</h1>
+  <p>Университетски уеб проект</p>
+  <nav>
+    <a href="#home">Начало</a>
+    <a href="#systems">Системи</a>
+    <a href="#parts">Части</a>
+    <a href="#conclusion">Заключение</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Въведение</h2>
+  <p>
+    Автомобилът представлява сложна механична система, съставена от множество
+    взаимосвързани части и подсистеми. Всяка автомобилна част изпълнява специфична
+    функция, която допринася за правилната и безопасна работа на превозното средство.
+    Целта на този проект е да представи основните автомобилни системи и техните
+    компоненти.
+  </p>
+</section>
+
+<section id="systems">
+  <h2>Основни автомобилни системи</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Двигателна система</h3>
+      <p>
+        Двигателят е основният източник на енергия в автомобила. Той преобразува
+        химичната енергия на горивото в механична енергия.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Трансмисия</h3>
+      <p>
+        Трансмисията предава въртящия момент от двигателя към колелата и позволява
+        промяна на скоростта и посоката на движение.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Окачване</h3>
+      <p>
+        Окачването осигурява комфорт и стабилност при движение, като абсорбира
+        неравностите на пътя.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Спирачна система</h3>
+      <p>
+        Спирачната система гарантира безопасността чрез намаляване на скоростта или
+        пълно спиране на автомобила.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="parts">
+  <h2>Примери за автомобилни части</h2>
+  <ul>
+    <li>Бутало</li>
+    <li>Съединител</li>
+    <li>Скоростна кутия</li>
+    <li>Амортисьори</li>
+    <li>Спирачни дискове и накладки</li>
+  </ul>
+</section>
+
+<section id="conclusion">
+  <h2>Заключение</h2>
+  <p>
+    Познаването на основните автомобилни части и системи е важно както за инженерите,
+    така и за всеки водач. Правилната поддръжка и експлоатация на тези компоненти
+    увеличава безопасността и експлоатационния живот на автомобила.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Университетски проект – Автомобилни части</p>
+</footer>
+
+</body>
+</html>
